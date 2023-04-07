@@ -1,4 +1,6 @@
 import "./styles.css";
+
+//importing the livekit client
 import { connect, createLocalTracks, RoomEvent } from "livekit-client";
 
 document.getElementById("connect").addEventListener("click", (e) => {
@@ -9,7 +11,8 @@ async function join() {
   const t = document.getElementById("jwt").value;
   console.log(t);
 
-  const url = "wss://linuxconnectiontest-15hwbf7p.livekit.cloud";
+  // const url = "wss://linuxconnectiontest-15hwbf7p.livekit.cloud";
+  const url = "wss://sadiqapptest-cb3rt2an.livekit.cloud";
 
   const room = await connect(url, t);
 
