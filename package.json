@@ -8,8 +8,8 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "livekit-client": "0.14.3",
-    "parcel-bundler": "^1.6.1"
+    "livekit-client": "^0.14.3",
+    "parcel-bundler": "^1.12.5"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",

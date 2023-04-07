@@ -12,7 +12,7 @@ async function join() {
   console.log(t);
 
   // const url = "wss://linuxconnectiontest-15hwbf7p.livekit.cloud";
-  const url = "wss://sadiqapptest-cb3rt2an.livekit.cloud";
+  const url = "wss://sadiqapptest-cb3rt2an.livekit.cloud"; //stream link
 
   const room = await connect(url, t);
 
